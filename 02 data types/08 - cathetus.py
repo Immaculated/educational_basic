@@ -1,0 +1,8 @@
+first_cathetus = float(input('enter the long of cathetus1 \n'))
+second_cathetus = float(input('enter the long of cathetus2 \n'))
+hypotenuse = float((first_cathetus ** 2 + second_cathetus ** 2) ** (1 / 2))
+perimeter = float(first_cathetus + second_cathetus + hypotenuse)
+square = float(0.5 * (first_cathetus * second_cathetus))
+print('hypotenuse = ' + str(hypotenuse))
+print('perimeter = ' + str(perimeter))
+print('square = ' + str(square))

@@ -1,0 +1,1 @@
+print('spartanec\n' * 300)
